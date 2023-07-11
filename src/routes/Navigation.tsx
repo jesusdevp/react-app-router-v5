@@ -6,8 +6,9 @@ import {
   Redirect
 } from "react-router-dom";
 import reactlogo from '../assets/react.svg'
-import { routes } from "./Routes";
+// import { routes } from "./Routes";
 import { Suspense } from "react";
+import { routes } from "./routes";
 
 export const  Navigation = () => {
   return (
@@ -23,7 +24,7 @@ export const  Navigation = () => {
                     <NavLink 
                       activeClassName='nav-active' 
                       to={ path } 
-                      exact >
+                    >
                         { name }
                     </NavLink>
                   </li>
