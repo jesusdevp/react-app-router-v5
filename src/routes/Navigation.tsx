@@ -5,6 +5,7 @@ import {
   NavLink
 } from "react-router-dom";
 import reactlogo from '../assets/react.svg'
+import { LazyPage1, LazyPage2, LazyPage3 } from "../01-lazyload/pages";
 
 export const  Navigation = () => {
   return (
@@ -14,13 +15,13 @@ export const  Navigation = () => {
             <img src={ reactlogo } alt="react-logo" />
           <ul>
             <li>
-              <NavLink activeClassName='nav-active' to="/" exact >Home</NavLink>
+              <NavLink activeClassName='nav-active' to="/lazy1" exact >Lazy 1</NavLink>
             </li>
             <li>
-              <NavLink activeClassName='nav-active' to="/about" exact >About</NavLink>
+              <NavLink activeClassName='nav-active' to="/lazy2" exact >Lazy 2</NavLink>
             </li>
             <li>
-              <NavLink activeClassName='nav-active' to="/users" exact >Users</NavLink>
+              <NavLink activeClassName='nav-active' to="/lazy3" exact >Lazy 3</NavLink>
             </li>
           </ul>
         </nav>
@@ -28,14 +29,14 @@ export const  Navigation = () => {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about" >
-            <h1>About</h1>
+          <Route path="/lazy1" >
+            <LazyPage1 />
           </Route>
-          <Route path="/users">
-            <h1>Users</h1>
+          <Route path="/lazy2">
+            <LazyPage2 />
           </Route>
-          <Route path="/">
-            <h1>Home</h1>
+          <Route path="/lazy3">
+            <LazyPage3 />
           </Route>
         </Switch>
       </div>
