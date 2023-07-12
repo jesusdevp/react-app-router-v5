@@ -5,6 +5,7 @@ import {
   NavLink
 } from "react-router-dom";
 import reactlogo from '../assets/react.svg'
+import { ShoppingPage } from "../02-component-pattern/pages/ShoppingPage";
 
 export const  Navigation = () => {
   return (
@@ -35,7 +36,8 @@ export const  Navigation = () => {
             <h1>Users</h1>
           </Route>
           <Route path="/">
-            <h1>Home</h1>
+            {/* <h1>Home</h1> */}
+            <ShoppingPage />
           </Route>
         </Switch>
       </div>
