@@ -1170,6 +1170,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+jes-product@^1.0.0-rc:
+  version "1.0.0-rc"
+  resolved "https://registry.yarnpkg.com/jes-product/-/jes-product-1.0.0-rc.tgz#9fff1d148a3585e04c625a6f43645f4297acc45d"
+  integrity sha512-GpuOHasmDfRFLXn0sZT0TzCzzHj76i8IplfptmCaqQfrBOkrx1kqgVX8EDm0bxCTNZGryZr+wr9q2CNWsloW3Q==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"

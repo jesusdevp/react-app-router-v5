@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import reactlogo from '../assets/react.svg'
 import { ShoppingPage } from "../02-component-pattern/pages/ShoppingPage";
+import { ShoppingPageWithLibrary } from "../02-component-pattern/components/ShoppingPageWithLibrary";
 
 export const  Navigation = () => {
   return (
@@ -30,7 +31,7 @@ export const  Navigation = () => {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about" >
-            <h1>About</h1>
+            <ShoppingPageWithLibrary />
           </Route>
           <Route path="/users">
             <h1>Users</h1>

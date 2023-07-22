@@ -12,4 +12,10 @@ const product2 = {
     img: './coffee-mug2.png'
 }
 
-export const products: Product[] = [ product, product2 ]
+const product3 = {
+    id: '2',
+    title: 'Coffee Mug - No image',
+    // img: './coffee-mug2.png'
+}
+
+export const products: Product[] = [ product, product2, product3 ]
