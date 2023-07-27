@@ -1,0 +1,102 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Jesus",
+        "label": "Join your name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "maxLength",
+                "value": 15
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Ramirez",
+        "label": "Join your last name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "maxLength",
+                "value": 15
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "example@example.com",
+        "label": "Join your email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "password",
+        "name": "password",
+        "placeholder": "Join a password",
+        "label": "Password",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "maxLength",
+                "value": 15
+            },
+            {
+                "type": "minLength",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Resident evil"
+            },
+            {
+                "id": 2,
+                "label": "Halo"
+            },
+            {
+                "id": 3,
+                "label": "The witcher 3"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
